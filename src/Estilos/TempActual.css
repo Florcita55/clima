@@ -1,0 +1,35 @@
+.temp-actual{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(22, 158, 158, 0.678);
+    color: white;
+    gap: 0px;
+    padding: 5px;
+    font-weight: bold;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+#fecha {
+    justify-self: end;
+    padding: 20px;
+    font-size: 180%;
+}
+#hora{
+    justify-self: start;
+     padding: 20px;
+     font-size: 180%;
+}
+
+#temperatura{
+    font-size: 350%;
+    justify-self: start;
+    padding: 20px;
+    /*grid-column: span 2;unifique dos columnas*/
+}
+#sol{
+    width: 40%; /* El 50% del ancho del contenedor */
+    height: auto;
+    justify-self: end;
+}

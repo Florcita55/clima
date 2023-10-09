@@ -1,0 +1,34 @@
+.max-min{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(22, 158, 158, 0.678);
+    color: white;
+    gap: 0px;
+    padding: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+.max-min > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 166, 0, 0.774);
+
+}
+
+#max {
+    justify-self: end;
+    padding: 30px;
+}
+#min{
+    justify-self: start;
+     padding: 30px;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.temp{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: rgba(22, 158, 158, 0.678);
+    gap: 60px; /* margen*/
+    padding: 10px;
+}
+.temp >li{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
